@@ -48,6 +48,7 @@ add_boost_lib(regex)
 add_boost_lib(signals)
 add_boost_lib_subdir(thread pthread)
 add_boost_lib(date_time)
+add_boost_lib(serialization)
 
 configure_file(${CMAKE_SOURCE_DIR}/BoostConfig.cmake.in
                ${CMAKE_BINARY_DIR}/BoostConfig.cmake @ONLY)
